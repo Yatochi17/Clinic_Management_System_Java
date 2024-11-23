@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.DiagnosisController">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="318.0" style="-fx-background-color: #191970;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="14.0" layoutY="100.0" prefHeight="138.0" prefWidth="147.0" spacing="20.0">
+               <children>
+                  <Label text="National ID:" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Diagnosis Name:" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Date:" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Diagnosed Sickness:" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="158.0" layoutY="100.0" prefHeight="141.0" prefWidth="151.0" spacing="10.0">
+               <children>
+                  <TextField fx:id="tfNationalid" />
+                  <TextField fx:id="tfTDiagName" layoutX="10.0" layoutY="10.0" />
+                  <DatePicker fx:id="tfDate" />
+                  <TextField fx:id="tfDiagSick" layoutX="10.0" layoutY="45.0" />
+               </children>
+            </VBox>
+            <Label layoutX="100.0" layoutY="42.0" text="DIAGNOSIS" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnInsert" layoutX="8.0" layoutY="426.0" mnemonicParsing="false" onAction="#Insert" style="-fx-border-color: #191970; -fx-background-color: #FFFFFF;" text="INSERT" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnUpdate" layoutX="84.0" layoutY="426.0" mnemonicParsing="false" onAction="#Update" style="-fx-border-color: #191970; -fx-background-color: #FFFFFF;" text="UPDATE" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDelete" layoutX="165.0" layoutY="426.0" mnemonicParsing="false" onAction="#Delete" style="-fx-border-color: #191970; -fx-background-color: #FFFFFF;" text="DELETE" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnClear" layoutX="246.0" layoutY="426.0" mnemonicParsing="false" onAction="#Clear" style="-fx-border-color: #191970; -fx-background-color: #FFFFFF;" text="CLEAR" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="tfSearch" layoutX="122.0" layoutY="335.0" onAction="#Search" prefHeight="25.0" prefWidth="185.0" promptText="Search By ID, then press ENTER" />
+            <ImageView fitHeight="42.0" fitWidth="30.0" layoutX="73.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/search_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="600.0" prefWidth="603.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnlogout" layoutX="446.0" layoutY="14.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #191970;" text="LOG OUT" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnPatient" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#viewPatient" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #191970;" text="PATIENT LIST" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMedHis" layoutX="14.0" layoutY="533.0" mnemonicParsing="false" onAction="#viewMedHis" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #191970;" text="MEDICAL HISTORY" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnAnal" layoutX="162.0" layoutY="533.0" mnemonicParsing="false" onAction="#viewAnal" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #191970;" text="ANALYSIS" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnTCourse" layoutX="303.0" layoutY="533.0" mnemonicParsing="false" onAction="#viewTCourse" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #191970;" text="TREATMENT COURSE" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnProMed" layoutX="437.0" layoutY="533.0" mnemonicParsing="false" onAction="#viewProMed" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #191970;" text="PROCEDURE &amp; MEDICINE" textFill="MIDNIGHTBLUE">
+               <font>
+                  <Font name="Berlin Sans FB" size="8.0" />
+               </font>
+            </Button>
+            <TableView fx:id="tvDiag" layoutX="9.0" layoutY="69.0" prefHeight="420.0" prefWidth="546.0">
+              <columns>
+                <TableColumn fx:id="colNationalid" prefWidth="93.0" text="National ID" />
+                <TableColumn fx:id="colDiagName" prefWidth="110.0" text="Diagnosis Name" />
+                  <TableColumn fx:id="colDate" prefWidth="102.0" text="Date" />
+                  <TableColumn fx:id="colDiagSick" prefWidth="240.0" text="Diagnosed Sickness" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

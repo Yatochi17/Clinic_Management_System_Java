@@ -1,0 +1,12 @@
+1273,2023-06-06,10.00pm,A1,success,Fully recovered,No complications,Dr Arash
+1234,2023-06-07,10.00am,A2,Success,Fully Recovered,No complications,Dr Danzul
+1923,2023-05-09,11.00am,A1,Success,Fully Recovered,Headache,Dr Danzul
+1284,2023-04-01,10.00am,A3,Success,Fully Recovered,Vomit,Dr Muaz
+1632,2023-05-18,4.00pm,B1,Success,Fully Recovered,Muscle Pain,Dr Mustafar
+1274,2023-06-01,9.00am,B2,Success,Fully Recovered,No complications,Dr Navid
+1346,2023-03-09,11.00am,B1,Success,Fully Recovered,Headache,Dr Adam
+1725,2023-02-19,10.00am,A1,Success,Fully Recovered,Flu,Dr Muaz
+1548,2023-06-07,12.00pm,C1,Success,Fully Recovered,No complications,Dr Navid
+1283,2023-06-06,12.00pm,C2,Success,Fully Recovered,No complications,Dr Danzul
+1263,2023-04-12,11.00am,B2,success,Fully Recovered,Headache,Dr Navid
+1028,2022-09-15,1.00pm,A2,Success,Fully Recovered,No complications,Dr Muaz

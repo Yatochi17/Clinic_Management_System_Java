@@ -1,0 +1,12 @@
+1273,2023-06-10,10.00pm,After meal,Paracethamol,10 tablet,3 times a day
+1923,2023-06-07,10.00am,After meal,Naproxen,20 tablet,2 times a day
+1234,2023-06-07,9.00pm,After meal,Nixoderm Ointment,10 tablet,3 times a week
+1284,2023-05-10,12.00pm,Before meal,Loratadine,10 tablet,1 timea a day
+1632,2023-04-02,2.00pm,After meal,Methadone,20 tablet,2 times a day
+1274,2023-06-02,10.00pm,After meal,miRNA,10 tablet,1 times a day
+1346,2023-03-10,8.00pm,Before meal,Acetaminophen,10 tablet,1 times a day
+1725,2023-02-19,9.00pm,After meal,Nixoderm ointment,10 tablet,3 times a week
+1548,2023-02-20,12.00pm,Before meal,Loratadine,10 tablet,1 times a day
+1283,2023-06-07,10.00am,After meal,Naproxen,20 tablet,3 times a day
+1263,2023-04-13,8.00pm,Before meal,Paracethamol,10 tablet,3 times a day
+1028,2022-09-16,10.00pm,After meal,miRNA,10 tablet,1 times a day

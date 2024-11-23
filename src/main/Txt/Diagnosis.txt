@@ -1,0 +1,12 @@
+1273,Flu,2023-06-07,Fever
+1234,Acne,2023-06-07,Pimple
+1923,knee broken,2023-06-07,knee dislocated
+1284,Flu,2023-05-10,Headache
+1632,drug addicted,2023-04-02,thin body
+1274,Drug addicted,2023-06-02,Thin Body
+1346,light blind,2023-03-10,Headache
+1725,Flu,2023-02-20,Fever
+1548,Knee broken,2023-02-20,Knee dislocated
+1283,light Blind,2023-06-07,Headache
+1263,Flu,2023-04-13,Fever
+1028,Acne,2022-09-16,Pimple

@@ -1,0 +1,12 @@
+Abdullah,1632,18,Male,Shah Alam,0125492510
+Ah Chong,1028,17,Male,Lenggong,0126481927
+Aqil Danial,1234,31,Male,Taman Melawati,0123567862
+Caiting,1346,20,Female,Subang Jaya,0182835282
+Danial Zulkifli,1923,9,Male,Semenyih,0162646424
+Hadif Zafri,1284,50,Male,Senawang,0144003078
+Julia,1548,19,Female,Kota Kinabalu,0152835192
+Nayli Batrisya,1273,21,Female,Puncak Alam,0162748353
+Raju,1263,21,Male,Semenyih,0125381026
+Raveen,1283,20,Male,Kajang,0126382917
+Tay Yi Aun,1274,19,Male,Shah Alam,0126484392
+Viknesh,1725,19,Male,Subang Jaya,0173925102
